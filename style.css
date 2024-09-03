@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    padding: 10px;
+    display:flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo .img{
+    width: 100px;
+    height: 45px;
+    position: relative;
+    right: 70px;
+    margin-top: 5px;
+}
+#pic{
+    position: relative;
+    right: 38px;
+}
+input{
+    padding: 10px;
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.463);
+    border-radius: 20px 0px 0px 20px;
+}
+#mic{
+    position: relative;
+    right:  7%;
+    font-size: larger;
+}
+#serch{
+    padding: 3px;
+    width: 4%;
+    height: 6.30vh;
+    position: relative;
+    right: 70px;
+    border-radius: 0px 23px 23px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    font-size: larger;
+}
+#sigup{
+    padding: 8px;
+    border-radius: 7px;
+    border: none;
+}                       
+#user{
+    padding: 6px;
+    width: 90px;
+    border-radius: 20px ;
+    background: none;
+    margin: 10px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    width: 99%;
+    height: auto;
+    margin-top: 3%;  
+}
+aside {
+    padding: 25px;
+    flex: 2.5;
+    padding: 8px;
+    width: 40%;
+    height: 90%;
+    overflow-y: scroll;
+    scrollbar-width: thin;  
+}
+section {
+    flex: 10;
+}
+.container ul {
+    list-style: none;
+    position: relative;
+    right: 20%;
+    bottom: 20%;
+}
+.container ul li {
+    padding: 14px;
+}
+.container ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+}
+i{
+    padding: 5px;
+}
+.bar {
+    justify-content: space-between;
+    display: flex;
+    border-radius: 100px;
+}
+.all{
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    background-color: black;
+    color: #fff;
+}
+
+.video-container{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100%;
+}
+.text-logo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.video{
+    margin: 10px;
+}
+.video iframe{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-logo{
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+.textinfor span{
+    display: flex;
+    margin-left: 50px;
+    font-size: 13px;
+    color: gray;
+}
